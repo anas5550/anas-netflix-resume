@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/anas-netflix-resume/static/css/main.e6ed69fc.css",
-    "main.js": "/anas-netflix-resume/static/js/main.563fe1d5.js",
+    "main.css": "/anas-netflix-resume/static/css/main.385db682.css",
+    "main.js": "/anas-netflix-resume/static/js/main.ae74d948.js",
     "static/js/787.e76851f7.chunk.js": "/anas-netflix-resume/static/js/787.e76851f7.chunk.js",
     "static/media/Logo_Netflix.png": "/anas-netflix-resume/static/media/Logo_Netflix.96c57697faa493a4602e.png",
+    "static/media/crioLogo.webp": "/anas-netflix-resume/static/media/crioLogo.f07c23fca061f81221f8.webp",
     "index.html": "/anas-netflix-resume/index.html",
-    "main.e6ed69fc.css.map": "/anas-netflix-resume/static/css/main.e6ed69fc.css.map",
-    "main.563fe1d5.js.map": "/anas-netflix-resume/static/js/main.563fe1d5.js.map",
+    "main.385db682.css.map": "/anas-netflix-resume/static/css/main.385db682.css.map",
+    "main.ae74d948.js.map": "/anas-netflix-resume/static/js/main.ae74d948.js.map",
     "787.e76851f7.chunk.js.map": "/anas-netflix-resume/static/js/787.e76851f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6ed69fc.css",
-    "static/js/main.563fe1d5.js"
+    "static/css/main.385db682.css",
+    "static/js/main.ae74d948.js"
   ]
 }
