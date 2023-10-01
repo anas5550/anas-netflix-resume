@@ -14,18 +14,41 @@
     color: white;
     -webkit-text-stroke: 0.6px red;
     -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .heading {
     color: white;
-    -webkit-text-stroke: 0.4px red;
+    -webkit-text-stroke: 0.6px red;
     -webkit-text-fill-color: transparent;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 3px;
 }
+
+
 
 ::-webkit-scrollbar {
     display: none;
     overflow: hidden;
+}
+
+#footer {
+    color: white;
+    -webkit-text-stroke: 1px red;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    #logo {
+        height: 40px;
+        display: block;
+        margin: 8px auto;
+    }
+
+    #footer {
+        font-size: 2rem;
+        text-align: center !important;
+        -webkit-text-stroke: 0.6px red;
+    }
 }
