@@ -2,6 +2,8 @@ import React from "react";
 import { PiSuitcaseSimpleFill } from "react-icons/pi";
 import { AiOutlineSetting, AiFillCalendar } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
+import ABI_GIF from "../../assets/abi_gif.gif";
+import acronoticsLogo from "../../assets/acronoticsLogo.png";
 
 const Experiance = () => {
   return (
@@ -11,10 +13,14 @@ const Experiance = () => {
           Experiance
         </p>
 
-        <div className="col-md-3 rounded-md h-[250px] overflow-y-scroll  bg-[#2D2D2D] py-4  m-2">
-          <p className="text-white text-[30px] text-center uppercase">
-            Acronotics
-          </p>
+        <div className="col-md-3 rounded-md h-[250px] overflow-y-scroll  bg-[#2D2D2D] py-2  m-2">
+          <div className="d-flex justify-between">
+            <p className="text-white text-[30px] text-center uppercase">
+              Acronotics
+            </p>
+            <img src={acronoticsLogo} alt="logo" height={50} width={50} />
+          </div>
+
           <p className="text-white flex justify-start my-2 items-start p-0 capitalize">
             <PiSuitcaseSimpleFill color="#E50914" size={25} className="mr-2" />
             Full stack developer
@@ -34,10 +40,14 @@ const Experiance = () => {
           </p>
         </div>
 
-        <div className="col-md-3 rounded-md h-[250px] overflow-y-scroll  bg-[#2D2D2D] py-4  m-2">
-          <p className="text-white text-[30px] text-center uppercase">
-            AB-InBev
-          </p>
+        <div className="col-md-3 rounded-md h-[250px] overflow-y-scroll  bg-[#2D2D2D] py-2  m-2">
+          <div className="d-flex justify-between">
+            <p className="text-white text-[30px] text-center uppercase">
+              AB-InBev
+            </p>
+            <img src={ABI_GIF} alt="logo" height={100} width={100} />
+          </div>
+
           <p className="text-white flex justify-start my-2 items-start p-0 capitalize">
             <PiSuitcaseSimpleFill color="#E50914" size={25} className="mr-2" />
             Full stack developement Intern

@@ -34,9 +34,7 @@ const Hero = () => {
                         What's new
                     </p>
                     <p className='text-white text-justify'>
-                        He is a passionate software engineer based in Lucknow, UP, with a strong affinity for emerging technologies such as React.js, Node.js, JavaScript, and SQL. Known for his inquisitive and enthusiastic approach to learning, he continually explores new tools and techniques in web and mobile development.
-                        When he is not engrossed in coding or working on his startup, he can be found indulging in his hobbies of singing, songwriting, and exploring new places.
-                        With a specialization in Frontend, he takes pride in writing highly optimized code and creating elegant user interfaces. His meticulous attention to detail ensures that the code he writes is efficient and effective.
+                        He is a passionate software engineer based in Lucknow, UP, with a strong affinity for emerging technologies such as React.js, Node.js, JavaScript, and SQL. Known for his inquisitive and enthusiastic approach to learning, he continually explores new tools and techniques in web and mobile development.With a specialization in Frontend, he takes pride in writing highly optimized code and creating elegant user interfaces. His meticulous attention to detail ensures that the code he writes is efficient and effective.
                     </p>
                 </div>
             </div>

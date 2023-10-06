@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
 .root,
 #root,
@@ -9,6 +10,7 @@
     --color-dark: "#321E1E";
     --color-white: "#ffffff"
 }
+
 
 #myname {
     color: white;
@@ -19,10 +21,11 @@
 
 .heading {
     color: white;
-    -webkit-text-stroke: 0.6px red;
+    -webkit-text-stroke: 0.2px red;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -37,6 +40,7 @@
     -webkit-text-stroke: 1px red;
     -webkit-text-fill-color: transparent;
     font-size: 4.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 @media screen and (max-width: 480px) {
